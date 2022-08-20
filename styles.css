@@ -39,7 +39,9 @@ html { scroll-padding-top: 68px; }
 #carousel .carousel-item {
     transition: transform 1s ease, opacity .5s ease-out;
 }
-
+#carousel button {
+    z-index: 3;
+}
 button.btn-success-platzi {
     background-color: #97c93e;
 }
