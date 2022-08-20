@@ -39,7 +39,8 @@ html { scroll-padding-top: 68px; }
 #carousel .carousel-item {
     transition: transform 1s ease, opacity .5s ease-out;
 }
-#carousel button {
+#carousel button.carousel-control-next,
+#carousel button.carousel-control-prev {
     z-index: 3;
 }
 button.btn-success-platzi {
